@@ -24,7 +24,7 @@ let intersection = numbers1.intersection(numbers2)
 print(intersection)
 
 
-let students: [String: Int] = [
+var students: [String: Int] = [
   "Dias": 10,
   "Madi": 9,
   "Beks": 8
