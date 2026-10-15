@@ -610,6 +610,7 @@ let D = AlarmLevel.level(forTotalMass: A).rawValue
 let integrityCode = "\(A)-\(B)-\(C)-\(D)"
 print("INTEGRITY CODE: \(integrityCode)")
 
+
 // MARK: Bonus
 
 // deinit in TeleportPod, a do-block lifetime experiment, and === identity
