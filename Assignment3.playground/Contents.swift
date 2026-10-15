@@ -125,6 +125,7 @@ let A = parsedLog.invalidCount
 print("A =", A)
 
 // MARK: Level 2 · Analysis
+
 // 2.1
 func select(_ readings: [Reading], where isIncluded: (Reading) -> Bool) -> [Reading] {
     var selected: [Reading] = []
